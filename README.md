@@ -1,2 +1,2 @@
 # HTML-kurs
-Radjeno na kursu HTML-a
+Stranice uradjene na kursu HTML-a
