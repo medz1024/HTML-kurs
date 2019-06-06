@@ -1,0 +1,85 @@
+body{
+	width: 960px;
+	margin: auto;
+	background-image: url("../slike/bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+p, a, h1, h2, table{
+	font-family: 'Dosis', sans-serif;
+}
+
+nav{
+	width: 200px;
+	height: 100%;
+	position:fixed;
+	background-color: #96252A;		
+}
+
+nav a{
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+}
+
+nav a:hover{
+	background-color: #2A2D3E;
+}
+
+nav img{
+	width: 70%;
+	position: absolute;
+	bottom: 0px;
+	margin: 0px 30px;
+}
+
+header{
+	width: auto;
+	margin-left: 20.8%;
+}
+
+header img{
+	width: 100%;
+}
+
+section{
+	margin-left: 20.8%;
+	width: auto;
+	padding-left: 10px;
+	text-align: justify;
+}
+
+section img{
+	width: 300px;
+	margin-left: 10px;
+	float: right;
+}
+
+footer{
+	width: auto;
+	margin-left: 20.8%;
+	padding-left: 10px;
+}
+
+footer a{
+	color: #96252A;
+}
+
+footer a:hover{
+	color: #fff;
+}
+
+table, input, textarea{
+	width: 100%;
+}
+
+input, textarea{
+	border: 1px solid #2A2D3E;
+}
+
+input:hover, textarea:hover{
+	border: 1px solid #96252A;
+	background-color: lightblue;
+}

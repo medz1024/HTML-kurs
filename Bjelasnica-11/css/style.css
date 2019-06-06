@@ -1,0 +1,81 @@
+body{
+	font-family: 'Rambla', sans-serif;
+	width: 80%;
+	margin: auto;
+	background-image: url(../slike/bg.jpg);
+	background-attachment: fixed;
+}
+
+p, a, h1, h2 i h3{
+	margin: 0px;
+}
+
+nav ul{
+	padding: 0px;
+	margin: 4px 0px 1.5px 0px;
+	text-align: center;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	width: 10%;
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+nav ul li a:hover, .active{
+	text-decoration: underline;
+}
+
+.slide{
+	line-height: 0px;
+}
+
+.slide img{
+	width: 100%;	
+}
+
+section {
+	background-color: white;
+	padding: 10px;
+}
+
+article{
+	width: 65%;
+	border-right: 1px solid gray;
+	display: inline-block;
+}
+
+article h1{
+	margin: 10px 0px;
+}
+
+.slika1{
+	width: 250px;
+	float: left;
+	margin: 5px 10px 5px 0px;
+}
+
+aside{
+	width: 34%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside h3{
+	margin: 15px 0px 20px 0px;
+}
+
+footer{
+	background-image: url("../slike/footer.jpg");
+	padding: 10px;
+}
+
+footer h3{
+	color: #fff;
+}
